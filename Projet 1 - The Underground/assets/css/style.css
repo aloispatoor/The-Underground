@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "robotoBold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "robotoBlack";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+body{
+    background-color: rgb(53, 53, 53);
+    font-family: "roboto";
+    text-align: center;
+}
+
+p{
+    font-size: 12px;
+}
+
+h1{
+    font-size: 32px;
+    font-family: "robotoBlack";
+}
+
+h2{
+    font-size: 32px;
+    font-family: "robotoBold";
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color:grey;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*INDEX*/
+.part1{
+    height: 250px;
+    border: 0px;
+    color: white;
+    background-image: url(../img/banner-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+    padding : 75px 200px; 
+}
+
+.text1{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.button1{
+    font-size: 12px;
+    font-family: "robotoBold";
+    color: black;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px 15px;
+    
+}
+
+.part2{
+    border: 0px;
+    color: black;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.text2{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.button2{
+    font-family: "robotoBold";
+    font-size: 12px;
+    color:white;
+    background-color:black;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 10px 15px;
+}
+
+.banner2{
+    height: 300px;
+    border:0px;
+    background-color:black;
+    background-image: url(../img/banner-2.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+/*GALLERIE*/
+.titleGallery{
+    height:100px;
+    color: white;
+    border:0px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: url(../img/banner-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.imgBox{
+    background-color: white;
+    padding:5px;
+}
+
+.gallerie{
+    border:0px;
+    display: inline-block;
+}
+/*A PROPOS*/
+.text3{
+    padding-top: 0px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.part3, .part4{
+    border: 0px;
+    color: black;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+/*FOOTER*/
+footer{
+    height: 20px;
+    padding: 30px;
+}
+
+.textfooter{
+    color:white;
+}
